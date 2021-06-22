@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+*{margin:0; padding:0;}
+
+body{
+    background-color: rgb(184, 173, 173);
+}
+header{
+    background-color: rgb(247, 201, 53);
+    width: 100%;
+    height: 50px;
+}            
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    } 
+    nav li{
+    background-color: rgb(247, 201, 53);
+    display: inline-block;
+    width:10%;
+    padding:10px 10px;
+    color:rgb(20, 19, 19);
+    justify-content: center;
+    }
+    nav li:hover{
+        background-color:rgb(206, 126, 7);
+        color:#000;
+        }
+
+  
+
+    nav > li{
+    float: left;
+    }
+footer{
+    text-align: center;
+    background-color: rgb(121, 117, 117);
+    position:relative;
+   left:0px;
+   bottom:0px;
+   height:75px;
+   width:100%;
+   clear: both;
+
+}
+
+ .imgInicio{
+width: 500px;
+height: 300px;
+display:block;
+margin:auto;
+}
+/* Banners 125x125 */
+#banners125 {
+    margin: 10px 0;
+    width:100%;
+    display: flex;
+    flex-direction:column-reverse;
+   
+    }
+    #banners125 ul {
+    padding:0;
+    margin:0;
+    }
+    #banners125 ul li {
+    float: left;
+    margin:80px 80px 80px 80px;
+    display: inline;
+    margin-left: 20%;
+    }
+    #banners125 img {
+    display: block;
+    }
+   
+      h2{
+          text-align: center;
+          margin-top: 35px;
+          margin-bottom: 25px;
+      }
+
+      table{
+        margin: 0 auto;
+        margin-bottom: 45px;
+        box-align: "center";
+        text-align: center;
+              
+      }
+      .contenedor{
+          display: flex;
+          align-items: center;
+
+          justify-content:center;
+          flex-direction:column;
+          padding: 0 1rem;
+          margin: 1rem;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .contenedorHijo{
+          font-size: 20px;                
+      }
+
+         button{
+          background-color: rgb(39, 39, 226);
+          font-size: 20px;
+          color: white;
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-weight: 500;
+          border: rgb(39, 39, 226);
+          border-radius: 8px;
+     }
+.contenedorCategoria ul li{
+    font-family: cursive;
+    font-size: 18px;
+    padding: 30px;
+    padding-top: 30px;
+    width: 15%;
+	text-decoration: none;
+    list-style:none;
+    color: black;
+}
+a{
+    color: black;
+}
+.contenedorCategoria li:hover{
+    background-color:rgb(231, 159, 49);
+    color:#000;
+    }
+
+.box-container {
+    display: flex;
+    height: 300px;
+    padding-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+  
+.box {
+    background-color: rgb(204, 24, 78);
+    height: 80%;
+    margin-right: 2%;
+}
+
+#box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 80%;
+    margin-right: 2%;
+
+
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 80%;
+    margin-right: 2%;
+
+  }
+      
+.imgProducto img{
+    max-width:100%;
+    width:auto;
+    height:auto;
+}
+
+.box li{
+    text-decoration: none;
+    list-style:none;
+    text-align: center;
+}
+
+.contenedorCarritoPadre{
+    display: flex;
+}
+
+.badge {
+    background-color: #000000;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}

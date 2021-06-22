@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="module" src="js/app.js"></script>
+    <title>E-commerce</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedorMenu">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html"><h3>Home</h3></a></li>
+                    <li><a href="pagina3.html"><h3>Productos</h3></a></li>
+                    <li><a href="pagina2.html" id="cart"><i class="fa fa-shopping-cart fa-lg"></i><span id = "idCantidadCarrito" class="badge">3</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h2 id="titulo">Detalles del carrito de compra</h2>
+
+    <table border="1"  id = "tablaProductosCarrito" class="default">
+        <tr class="atributosCarrito">
+            <th>Nombre Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Subtotal</th>
+        </tr>
+
+        <tr class="valores" align="center">
+            <td class="nombreProducto">Zapatos mujer Reebok 123</td>
+            <td class="cantidad">2</td>
+            <td class="precio">300.000</td>
+            <td class="subtotal">300.000</td>
+        </tr>
+
+    </table>
+    <div class="contenedor">
+        <div class="contenedorHijo">
+            <label><strong>Total a pagar: $</strong></label>
+            <label id="total">998888</label><br><br>
+        </div>
+        <div class="contenedorHijo">
+            <button id="botonPagar" onclick="">Pagar</button>
+        </div>
+    </div>
+    <footer>
+        <address>
+            Autor: Arymir Ortega<br>
+            Correo: arymiro@gmail.com<br>
+            Contacto: 350-2924138
+        </address>
+        <p>©Copyright 2021. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

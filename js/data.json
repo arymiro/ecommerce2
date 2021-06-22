@@ -1,0 +1,82 @@
+[
+	{
+		"id": "1",
+		"idCategoria": "1",
+		"nombre": "Zapatos Nike para mujer 756574",
+		"descripcion": "Zapatos de dama color rosa de la marca nike modelo 756574",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 150000
+	},
+	{
+		"id": "2",
+		"idCategoria": "1",
+		"nombre": "Zapatos Adidas para mujer 757578",
+		"descripcion": "Zapatos para damas marca adidas color verde modelo 7634tfg347",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 300000
+	},
+	{
+	    "id": "3",
+		"idCategoria": "1",
+		"nombre": "Zapatos Reebok para mujer 7665544 ",
+		"descripcion": " Zapatos para mujer modelo 7665544 marca Reebok color fuscia con negro",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 400000
+	},
+	{
+		"id": "4",
+		"idCategoria": "1",
+		"nombre": "Zapatos Nike dama naranja 897564",
+		"descripcion": "Zapatos de dama modelo 78655544  marca nike de color naranja",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 500000
+	},
+	{
+	    "id": "5",
+		"idCategoria": "1",
+		"nombre": "Zapatos Coleman dama modelo 997663 ",
+		"descripcion": "Zapato para dama marca Coleman color marron modelo 8765554",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 100000
+	},
+	{
+	    "id": "6",
+		"idCategoria": "2",
+		"nombre": "Zapatos para caballero negro",
+		"descripcion": "Zapatos de caballero marca nike modelo 765545 color negro",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 100000
+	},
+	{
+	    "id": "7",
+		"idCategoria": "2",
+		"nombre": "Zapatos de caballero Adidas azul",
+		"descripcion": "Zapatos para caballero marca Nike color azul",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 120000
+	},
+	{
+		"id": "8",
+		"idCategoria": "2",
+		"nombre": "Zapatos de caballero amarillo",
+		"descripcion": "Zapato de caballero marca velez color amarillo",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 350000
+	},
+	{
+	    "id": "9",
+		"idCategoria": "2",
+		"nombre": "Zapatos de caballero azul y amarillo",
+		"descripcion": "Zapatos de caballero azul y amarillo marca reebok",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 900000
+	},
+	{
+	    "id": "10",
+		"idCategoria": "2",
+		"nombre": "Zapato de caballero blanco",
+		"descripcion": "Zapatos para caballero marca Puma color blanco",
+		"imagenUrl": "./images/carrito.jpg",
+		"precio": 850000
+	}	
+]
